@@ -11,6 +11,7 @@ If you want to use Llama3, install Ollama and use that to get Llama3 running loc
 If you want to use ChatGPT instead, make the following two changes in `config.ts`, First, change `useChatGPT` to `true`. Second, paste your OpenAI API key into `openAIApiKey`.
 
 Install Node.js
+
 Run `npm install`
 
 # Usage
