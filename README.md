@@ -15,10 +15,11 @@ Install Node.js
 Run `npm install`
 
 # Usage
-Export an Anki deck's cards into `input.txt`
-That text file should have one card per line, with a tab separating the question and answer. Only the "answers" will be used in generating a story.
+Export an Anki deck's cards into `input.txt`. You can do this in the desktop version of Anki (not AnkiWeb) by clicking `Browse`, then (from the menu) Notes -> Export Notes.  Set the export format to `Notes in Plain Text (.txt)`, and uncheck the box that says `Include HTML and media references`.
 
-Edit `config.ts` with settings.
+That resulting text file should have one card per line, with a tab separating the question and answer.
+
+Optionally, edit `config.ts` to configure how long you want the story to be.
 
 Run `npm start`. The output will be in `output.txt`.
 
