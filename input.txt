@@ -1,0 +1,7 @@
+#separator:tab
+#html:false
+red rojo
+green   verde
+blue   azul
+big grande
+small pequeño
