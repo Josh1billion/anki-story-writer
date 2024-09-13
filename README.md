@@ -1,6 +1,11 @@
 # About
 
+This is a CLI tool to help you study a foreign language.
+
 Given an Anki deck (`input.txt`) and some options (`config.ts`), uses AI to generate a short story that makes use of a random selection of the vocab the user is learning in a foreign language.
+
+# Web version
+There's also a web version available at [https://ankistorywriter.fordesoft.com/](https://ankistorywriter.fordesoft.com/) with source code at [https://github.com/Josh1billion/anki-story-writer-react](https://github.com/Josh1billion/anki-story-writer-react)
 
 # Installation
 
